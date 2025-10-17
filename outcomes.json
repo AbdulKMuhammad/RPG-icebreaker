@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "passed_easily": "You pop the hood with confidence, wiggle a loose battery cable back into place, and the engine roars to life on the first try. You're on the road with time to spare.",
+    "failed_miserably": "You turn the key and hear a sickening grinding noise followed by smoke billowing from under the hood. The engine is completely seized - you're calling a tow truck and missing that appointment.",
+    "passed": "After a few anxious attempts and some creative problem-solving, you manage to get the car started. You'll make it, but you're cutting it close.",
+    "failed": "The car refuses to start, just clicking uselessly. You're stuck calling an Uber and hoping you're not too late."
+  },
+  {
+    "id": 2,
+    "passed_easily": "Your lightning reflexes kick in and you snatch the laptop away before more than a few drops hit it. Crisis averted - everything still works perfectly.",
+    "failed_miserably": "Coffee floods the keyboard and the screen goes black with a horrible crackling sound. Your laptop is completely fried, and you just lost everything that wasn't backed up.",
+    "passed": "You frantically flip the laptop upside down and power it off. After drying it out, it sputters back to life with only minor damage.",
+    "failed": "The coffee seeps into every crevice. Despite your best efforts to save it, the laptop won't turn back on. You're shopping for a replacement tonight."
+  },
+  {
+    "id": 3,
+    "passed_easily": "You pull into the next rest stop and quickly diagnose it as just a loose gas cap. You tighten it, reset the light, and continue your journey without missing a beat.",
+    "failed_miserably": "The engine starts knocking violently and you barely make it to the shoulder before it dies completely. You're stranded hours from home with a major mechanical failure.",
+    "passed": "After some research on your phone, you identify it as a minor sensor issue. You're able to limp to the nearest town and get it fixed within a few hours.",
+    "failed": "The problem worsens rapidly and the car loses power on the highway. You're stuck waiting for a tow truck in an unfamiliar area, your trip completely derailed."
+  },
+  {
+    "id": 4,
+    "passed_easily": "You immediately spot the duplicate charge, screenshot the evidence, and within minutes have the credit card company reversing the charges with a full apology.",
+    "failed_miserably": "The charges are legitimate fees you never knew existed, and you've been ignoring them for months. You now owe hundreds in late fees and your credit score just tanked.",
+    "passed": "After an hour on hold and escalating to a supervisor, you successfully dispute the charge and get your money back.",
+    "failed": "The company insists the charges are valid and you can't prove otherwise. You're out the money and there's nothing you can do about it."
+  },
+  {
+    "id": 5,
+    "passed_easily": "You quickly shut off the water valve, fashion a makeshift plunger from household items, and clear the clog in minutes. Not a drop hits the floor.",
+    "failed_miserably": "Water cascades over the rim and floods your entire bathroom before you can stop it. Sewage seeps into the flooring and you're looking at thousands in water damage repair.",
+    "passed": "You manage to stop the flow and frantically run to a neighbor who lends you a plunger. You clear it before too much damage is done.",
+    "failed": "Despite your best efforts with coat hangers and desperation, the toilet continues overflowing. Your bathroom is flooded and you have to call an emergency plumber."
+  },
+  {
+    "id": 6,
+    "passed_easily": "Your phone glitches and fails to send the message. You notice the error immediately and delete it before anyone sees. Pure luck saves you from disaster.",
+    "failed_miserably": "They read it immediately and screenshot it. Within an hour, everyone knows what you said. Your relationship is permanently destroyed and the fallout is brutal.",
+    "passed": "You notice within seconds, quickly follow up with a genuine apology, and they accept after a tense conversation. Things are awkward but salvageable.",
+    "failed": "They've already read it and won't respond to your frantic apology texts. The damage is done and they want nothing to do with you."
+  },
+  {
+    "id": 7,
+    "passed_easily": "You charm the airline agent who finds you a first-class seat on a partner airline leaving in two hours. You're actually getting an upgrade out of this mess.",
+    "failed_miserably": "The next available flight is in five days and there are no hotels available. You're stuck sleeping in the airport and missing everything you had planned.",
+    "passed": "After exhaustive searching and calling in some favors, you piece together a multi-leg journey that gets you there a day late.",
+    "failed": "Every flight is booked solid for the next 72 hours. Your plans are completely ruined and you're out hundreds of dollars in non-refundable bookings."
+  },
+  {
+    "id": 8,
+    "passed_easily": "Someone found your wallet and turned it in to the police station completely intact. You retrieve it within an hour with everything still inside.",
+    "failed_miserably": "Your cards are maxed out within an hour and someone uses your ID to open fraudulent accounts. You're dealing with identity theft for the next year.",
+    "passed": "You quickly cancel all your cards and report the loss. It's a hassle getting replacements, but you catch it before any major damage is done.",
+    "failed": "By the time you realize it's gone, thousands have been charged to your accounts. The fraud department is investigating but you're liable for much of it."
+  },
+  {
+    "id": 9,
+    "passed_easily": "Your partner takes over without hesitation, your backup presenter is ready to go, and you nail your presentation remotely from home. Everything works out perfectly.",
+    "failed_miserably": "You have no backup, your client refuses to reschedule, and you completely bomb the video presentation while simultaneously dealing with a screaming sick child. Both situations are disasters.",
+    "passed": "You scramble to find childcare at the last minute and deliver a decent but not great presentation. You pull it off, barely.",
+    "failed": "There's no one to watch your child and you have to cancel the presentation. Your boss is furious and the client chooses a competitor."
+  },
+  {
+    "id": 10,
+    "passed_easily": "You have a backup generator that kicks in automatically, or you quickly move everything to coolers packed with ice from your freezer. Nothing spoils.",
+    "failed_miserably": "The power is out for three days in the summer heat. Everything rots, the smell is unbearable, and you lose hundreds of dollars in groceries while maggots infest your fridge.",
+    "passed": "You salvage most items by quickly cooking what you can and giving away the rest to neighbors. You lose some stuff but save the majority.",
+    "failed": "By the time power returns 24 hours later, most of your food is spoiled. You're throwing out bags of rotting groceries and starting from scratch."
+  },
+  {
+    "id": 11,
+    "passed_easily": "You locate the source immediately, toss a bucket underneath, and apply a temporary patch that holds perfectly until the storm passes. Minimal damage.",
+    "failed_miserably": "The leak is actually a burst pipe that floods your entire second floor. Water pours through light fixtures and ruins your ceiling, walls, and flooring. The repair bill is catastrophic.",
+    "passed": "You contain most of the water with strategic bucket placement and towels, but there's still noticeable ceiling damage that needs repair.",
+    "failed": "Water spreads across your ceiling and drips into multiple rooms. Substantial damage to drywall and insulation means you're dealing with major repairs and possible mold."
+  },
+  {
+    "id": 12,
+    "passed_easily": "You had already anticipated this project and completed most of it earlier in the week. You polish it off in 30 minutes and still enjoy your evening.",
+    "failed_miserably": "You work until 3 AM and completely botch the assignment due to exhaustion. Your boss tears it apart on Monday and questions your competence.",
+    "passed": "You sacrifice your Friday night, work until midnight, and produce acceptable work. Your weekend is shot but the job is done.",
+    "failed": "You either ignore it and face consequences Monday, or do such a rushed job that it's unusable. Either way, you're in trouble."
+  },
+  {
+    "id": 13,
+    "passed_easily": "Your automatic cloud backup had synced five minutes ago. You restore the file instantly with zero data loss and breathe a sigh of relief.",
+    "failed_miserably": "The file contained months of irreplaceable work and you have no backup. Everything is gone forever and you have to start completely from scratch.",
+    "passed": "You manage to recover an older version from your recycle bin or email attachments. You lose some recent work but salvage most of it.",
+    "failed": "The file is permanently gone and you have no backup. You're recreating weeks of work from memory and whatever fragments you can find."
+  },
+  {
+    "id": 14,
+    "passed_easily": "Your pet comes running the moment you call them, or a neighbor spots them immediately and brings them back. They never even left the block.",
+    "failed_miserably": "Days pass with no sign of them. You're posting flyers, checking shelters, and fearing the worst. They're gone and may never come back.",
+    "passed": "After hours of searching and calling, you find them several blocks away or someone reports a sighting. Relieved reunion but thoroughly exhausted.",
+    "failed": "Despite extensive searching, signs, and social media posts, there's no trace of them. You're heartbroken and the search continues with fading hope."
+  },
+  {
+    "id": 15,
+    "passed_easily": "Your employer has a clear policy supporting jury duty and your team covers for you seamlessly. The case settles before trial and you're dismissed early.",
+    "failed_miserably": "You're selected for a three-week trial during your biggest project of the year. You lose a major client and your career takes a serious hit.",
+    "passed": "You're able to postpone jury duty to a less critical time, or you serve for a few days and your team manages in your absence.",
+    "failed": "You're stuck in jury selection for days during crucial meetings. Important deals fall through and relationships with clients are damaged."
+  },
+  {
+    "id": 16,
+    "passed_easily": "You catch it immediately, stop the cycle, and quickly mop up the water. A simple adjustment fixes the issue and you finish your laundry without incident.",
+    "failed_miserably": "Water floods your entire laundry room and seeps into the walls and subflooring. The washing machine is destroyed and you're facing major water damage restoration.",
+    "passed": "You contain most of the flood with towels and shut off the water supply. The machine needs repairs but you've prevented major damage.",
+    "failed": "By the time you notice, water has spread throughout the room and into adjacent areas. The machine is broken and you have significant cleanup ahead."
+  },
+  {
+    "id": 17,
+    "passed_easily": "A kind stranger stops to help immediately, has the right tools, and helps you change to your emergency donut tire. You're back on the road in 15 minutes.",
+    "failed_miserably": "The tire is completely shredded and damaged your wheel well. You're stranded in a dangerous area for hours, and the tow and repairs cost over a thousand dollars.",
+    "passed": "Roadside assistance arrives after a long wait and gets you to a safe location. It's stressful and expensive, but you get through it.",
+    "failed": "You wait for hours in an unsafe area with no cell service. When help finally arrives, the damage is more extensive than just the tire."
+  },
+  {
+    "id": 18,
+    "passed_easily": "A witness saw everything and left you their contact information with the full license plate number. Your insurance handles everything smoothly.",
+    "failed_miserably": "The damage is severe, costs thousands to repair, and you have to pay your deductible with no way to track down the perpetrator. Your rates increase.",
+    "passed": "Security footage from a nearby business captures the incident. It takes time but you eventually track them down and get compensated.",
+    "failed": "There are no witnesses or cameras. You're stuck paying for repairs yourself and your insurance rates go up despite it not being your fault."
+  },
+  {
+    "id": 19,
+    "passed_easily": "You call immediately and verify your identity easily. It was a false alarm and they unfreeze everything within minutes. No harm done.",
+    "failed_miserably": "It wasn't a mistake - your identity was actually stolen. Your account is drained and you're stuck in bureaucratic hell for months trying to prove fraud.",
+    "passed": "After several phone calls and submitting documentation, they unfreeze your account within a day. It's a hassle but gets resolved.",
+    "failed": "The verification process is nightmarish. You can't access your money for over a week and miss crucial bill payments, damaging your credit."
+  },
+  {
+    "id": 20,
+    "passed_easily": "You have prescription medication that knocks it out immediately. You're functional within an hour and actually attend the event feeling fine.",
+    "failed_miserably": "It's the worst migraine of your life and you spend the day vomiting in a dark room. You miss the event entirely and it was non-refundable or irreplaceable.",
+    "passed": "You medicate heavily and push through with sunglasses on. You attend but suffer through it and barely remember anything.",
+    "failed": "The pain is unbearable and you physically cannot attend. You miss something extremely important and disappoint multiple people."
+  },
+  {
+    "id": 21,
+    "passed_easily": "Your sump pump and drainage system work flawlessly, diverting all the water away. Your basement stays completely dry despite the deluge.",
+    "failed_miserably": "Water fills your basement to a depth of several feet, destroying everything stored there. The water damage, mold remediation, and lost possessions cost tens of thousands.",
+    "passed": "You manage to pump out most of the water quickly and save most items by moving them to higher ground. There's damage but it's containable.",
+    "failed": "Several inches of water flood the basement, ruining boxes of belongings, damaging the foundation, and creating a perfect environment for mold growth."
+  },
+  {
+    "id": 22,
+    "passed_easily": "You remember within minutes and the trash truck hasn't come yet. You retrieve the item easily and it's perfectly fine.",
+    "failed_miserably": "It's been days and the trash is long gone to the landfill. The item was irreplaceable - a family heirloom, important documents, or something of tremendous value.",
+    "passed": "You race to the dump and after hours of searching through disgusting trash, you miraculously find it. It's damaged but salvageable.",
+    "failed": "The trash truck has already taken it away and there's no way to recover it. You've lost something important forever."
+  },
+  {
+    "id": 23,
+    "passed_easily": "You have a warranty that covers same-day service. A technician arrives within hours and fixes everything for free. You're comfortable again by evening.",
+    "failed_miserably": "It's the hottest/coldest day of the year, no technicians are available for a week, and you suffer through dangerous temperatures that affect your health and damage your home.",
+    "passed": "You find an emergency repair service that comes the next day for a premium fee. It's expensive but you get it fixed relatively quickly.",
+    "failed": "Every HVAC company is booked for days due to the extreme weather. You're stuck suffering in unbearable temperatures with no timeline for relief."
+  },
+  {
+    "id": 24,
+    "passed_easily": "The elevator restarts within seconds and you reach your floor. It was just a minor glitch and you're barely inconvenienced.",
+    "failed_miserably": "You're trapped for hours in a cramped space, miss crucial appointments, and develop claustrophobia. The rescue is traumatic and you consider therapy afterward.",
+    "passed": "The fire department arrives within 30 minutes and gets you out. You're shaken but okay, though you missed whatever you were heading to.",
+    "failed": "You're stuck for over an hour in uncomfortable conditions. By the time you're freed, you've missed important commitments and are emotionally rattled."
+  },
+  {
+    "id": 25,
+    "passed_easily": "You catch it a week early and expedite a renewal at the passport agency. You get it in time and your trip goes ahead as planned.",
+    "failed_miserably": "You discover it at the airport. Your trip is completely canceled, you lose thousands in non-refundable bookings, and relationships are damaged from missing the event.",
+    "passed": "You discover it with just enough time to visit a passport agency and pay for emergency processing. It's stressful and expensive but you make your flight.",
+    "failed": "There's not enough time to renew before your departure. Your international trip is canceled and you lose significant money and opportunities."
+  },
+  {
+    "id": 26,
+    "passed_easily": "The symptoms are mild and you have medication that settles your stomach immediately. You host the party successfully and no one knows you were sick.",
+    "failed_miserably": "You're violently ill and have to cancel everything at the last minute. Food spoils, guests are angry, and you spend the party alternating between the bathroom floor and bed.",
+    "passed": "You rally with medication and sheer willpower. The party happens but you're clearly unwell, and you crash hard afterward.",
+    "failed": "You're too sick to function. You have to cancel with guests already on their way, wasting all the prepared food and damaging relationships."
+  },
+  {
+    "id": 27,
+    "passed_easily": "You calmly redirect their attention with a distraction technique that works perfectly. They calm down immediately and you complete your shopping peacefully.",
+    "failed_miserably": "They have a complete meltdown, throwing items and screaming for 20 minutes while everyone stares. Security is called and you leave humiliated with an upset child and no groceries.",
+    "passed": "You stay calm and eventually get them settled down, though it takes a while and you're frazzled. You finish your shopping quickly and leave.",
+    "failed": "The tantrum escalates and you have no choice but to abandon your full cart and carry a screaming child out of the store. Everyone judges you."
+  },
+  {
+    "id": 28,
+    "passed_easily": "You catch the infestation incredibly early - just a few bugs. One professional treatment eliminates them completely before they spread. Minimal cost and stress.",
+    "failed_miserably": "They've infested every room and all your furniture. You have to throw away your mattress, sofa, and countless belongings. Treatment costs thousands and takes months.",
+    "passed": "You identify them early enough that professional treatment works after several sessions. It's expensive and disruptive but you successfully eliminate them.",
+    "failed": "They've spread throughout your home. Despite multiple treatments, they keep coming back. You're dealing with them for months and considering moving."
+  },
+  {
+    "id": 29,
+    "passed_easily": "You have excellent insurance with a low deductible and there's an authorized repair shop next door. Your phone is fixed within an hour for minimal cost.",
+    "failed_miserably": "You have no insurance and the screen damage caused internal component failure. The repair costs more than a new phone and you lost everything not backed up.",
+    "passed": "You get it repaired at a mall kiosk for a reasonable fee. It takes a few hours but your phone is functional again.",
+    "failed": "The damage is too severe for basic repair and you need a new phone. Between the replacement cost and data loss, you're out significant money and memories."
+  },
+  {
+    "id": 30,
+    "passed_easily": "You quickly negotiate, delegate, or reschedule one commitment without offending anyone. Both important matters are handled successfully.",
+    "failed_miserably": "You try to attend both, arrive late to each, and completely fail at both. You've damaged multiple important relationships and accomplished nothing.",
+    "passed": "You manage to attend one in person while handling the other virtually or through a representative. It's not ideal but you maintain both commitments.",
+    "failed": "You're forced to cancel one, severely disappointing someone and potentially damaging that relationship or missing a critical opportunity."
+  },
+  {
+    "id": 31,
+    "passed_easily": "You notice the first drops, shut it off immediately, and fix the loose connection yourself in minutes. The floor is barely wet and dries quickly.",
+    "failed_miserably": "It leaks for hours while you're away, flooding your entire kitchen and seeping into the floor below. The water damage requires replacing flooring and cabinetry.",
+    "passed": "You catch it after a few minutes of leaking, stop the dishwasher, and mop up the water. There's minor damage but nothing structural.",
+    "failed": "Significant water covers your kitchen floor and has seeped under cabinets. You're dealing with water damage, possible mold, and an expensive repair."
+  },
+  {
+    "id": 32,
+    "passed_easily": "You have a spare key hidden nearby or a family member with a spare is five minutes away. You're back in your car within minutes.",
+    "failed_miserably": "Your car runs out of gas while locked with the keys inside, you're hours from help, and the locksmith costs a fortune. Your car is damaged in the unlocking process.",
+    "passed": "You call a locksmith who arrives in 45 minutes. It's expensive and frustrating, but you get back in without damage to your car.",
+    "failed": "You're stranded for hours waiting for help in a parking lot. The locksmith damages your door lock and you're out hundreds of dollars plus repair costs."
+  },
+  {
+    "id": 33,
+    "passed_easily": "Your doorbell camera captured everything clearly. The thief is identified and arrested within a day, and you get your package back undamaged.",
+    "failed_miserably": "The package contained something expensive and time-sensitive. The vendor won't replace it, your credit card won't cover it, and you're out hundreds of dollars with no recourse.",
+    "passed": "The vendor sends a replacement after you file a police report. It's annoying and delayed, but you eventually get what you ordered.",
+    "failed": "There's no proof of theft and the vendor refuses to replace it. You're out the money and the item, with no way to recover either."
+  },
+  {
+    "id": 34,
+    "passed_easily": "You had nothing critical planned and you're happy for the extra money. You head in with a good attitude and it's an easy shift.",
+    "failed_miserably": "You had non-refundable plans that were deeply important to you. You're forced to choose between your job and your life, and either way you lose something significant.",
+    "passed": "You negotiate to come in for part of the day or find someone to cover some hours. You salvage part of your day off.",
+    "failed": "You have to cancel important personal plans. You're resentful, the day off is ruined, and you're frustrated with your job."
+  },
+  {
+    "id": 35,
+    "passed_easily": "Your antivirus catches it immediately and quarantines it before any damage occurs. A quick scan and removal takes five minutes and everything is fine.",
+    "failed_miserably": "It's ransomware that encrypts all your files. Hackers demand thousands of dollars and you have no backups. Your digital life is held hostage or destroyed.",
+    "passed": "You catch it quickly and run removal tools that clean most of it. Some minor issues remain but your important files are safe.",
+    "failed": "The malware corrupts files, steals passwords, and sends spam from your accounts. You spend days cleaning up the mess and changing every password."
+  },
+  {
+    "id": 36,
+    "passed_easily": "It's extremely minor and you have a walking boot that allows you to enjoy the vacation with minimal limitations. You even get priority boarding on flights.",
+    "failed_miserably": "It's a severe sprain that requires crutches and immobilization. Your entire vacation is spent in a hotel room in pain while everyone else has fun without you.",
+    "passed": "You're hobbled but manage with pain medication and determination. The vacation is compromised but you still participate in modified activities.",
+    "failed": "The injury prevents you from doing any of the planned activities. You're miserable, in pain, and your expensive vacation is essentially wasted."
+  },
+  {
+    "id": 37,
+    "passed_easily": "You quickly fan the smoke away from the detector and it stops immediately. You adjust your cooking technique and continue without issue.",
+    "failed_miserably": "The alarm won't stop and you can't disable it. Neighbors call the fire department who arrives with sirens blaring, and you're humiliated as they ventilate your home.",
+    "passed": "You eventually stop it by opening windows and using a fan, but not before several minutes of ear-splitting noise that alerts the whole building.",
+    "failed": "It keeps triggering repeatedly despite your efforts. You're forced to disconnect it or remove the battery, leaving you without fire protection."
+  },
+  {
+    "id": 38,
+    "passed_easily": "You catch it early when it's just a small patch. You clean it thoroughly with proper cleaner and improve ventilation. Problem solved completely.",
+    "failed_miserably": "It's black mold that's spread behind walls and into the HVAC system. The remediation costs tens of thousands and you may have health effects from exposure.",
+    "passed": "You identify and treat a moderate mold problem. It requires professional cleaning and fixing a moisture issue, but it's caught before major damage.",
+    "failed": "The mold has spread significantly and requires professional remediation. You're facing thousands in costs and have to temporarily relocate during treatment."
+  },
+  {
+    "id": 39,
+    "passed_easily": "You catch them in the act and stop them immediately. The shoes have minor marks that buff right out. Crisis averted and a training opportunity seized.",
+    "failed_miserably": "They completely destroyed your expensive designer shoes beyond any repair. You're out hundreds of dollars and your favorite footwear is garbage.",
+    "passed": "The shoes are damaged but a cobbler might be able to repair them for a fee. They'll never be perfect but might be salvageable.",
+    "failed": "The shoes are ruined and the damage is too extensive to repair. You have to throw them away and accept the loss."
+  },
+  {
+    "id": 40,
+    "passed_easily": "You know an alternate route and quickly switch lanes, bypassing the slow driver entirely. You actually arrive early thanks to your quick thinking.",
+    "failed_miserably": "You're trapped behind them on a one-lane road with no passing for miles. You arrive extremely late, miss your commitment entirely, and face serious consequences.",
+    "passed": "You eventually find an opportunity to pass safely. You're a bit late but manage to arrive before it's critical.",
+    "failed": "There's no safe passing opportunity and you're stuck going 15 under the limit. You arrive late and the thing you were rushing to is negatively affected."
+  },
+  {
+    "id": 41,
+    "passed_easily": "You have another card ready immediately and it goes through without issue. The first card just had a security hold that you quickly resolve with one call.",
+    "failed_miserably": "All your cards are declined, you have no cash, and your account is frozen. You abandon your groceries in humiliation as everyone behind you groans loudly.",
+    "passed": "You have just enough cash in your wallet to cover it. It's embarrassing but you get through it and resolve the card issue later.",
+    "failed": "You have no backup payment method and have to abandon your purchase in front of annoyed customers. You leave empty-handed and mortified."
+  },
+  {
+    "id": 42,
+    "passed_easily": "You pay immediately online with a quick explanation, and they waive any late fees as a courtesy. Your account is cleared with no damage to your credit.",
+    "failed_miserably": "The bill was for a critical service that's now shut off. You've accrued massive late fees, your credit score dropped significantly, and collections are calling.",
+    "passed": "You pay immediately with a late fee. It hurts financially but you've stopped the damage before it affected your credit or services.",
+    "failed": "Services are disconnected, late fees have piled up, and your credit score has been dinged. You're dealing with the consequences for months."
+  },
+  {
+    "id": 43,
+    "passed_easily": "You happen to have all the necessary supplies already at home. You whip up an impressive project in an hour while your child sleeps. Crisis averted.",
+    "failed_miserably": "Stores are closed, you have no supplies, and you stay up until 3 AM creating something terrible. Your child is embarrassed at school and you're a zombie the next day.",
+    "passed": "You make an emergency late-night store run and help create a decent project. You're exhausted but your child has something to turn in.",
+    "failed": "It's too late to get supplies and you have to send them to school with a hastily made, subpar project or nothing at all. They face consequences."
+  },
+  {
+    "id": 44,
+    "passed_easily": "You have an antihistamine in your bag and take it immediately. The swelling goes down quickly and you're fine within 30 minutes.",
+    "failed_miserably": "You discover you're actually allergic and go into anaphylaxis. You need an emergency EpiPen and an ambulance ride to the ER for a terrifying experience.",
+    "passed": "You treat it with ice and over-the-counter medication. It's painful and swollen but manageable, and it improves over a few hours.",
+    "failed": "The sting site swells significantly and becomes very painful. You need urgent care to get it treated and you're miserable for days."
+  },
+  {
+    "id": 45,
+    "passed_easily": "You easily disconnect the opener and manually lift the door yourself. You drive out and fix or replace the opener at your convenience.",
+    "failed_miserably": "The door is completely jammed and you can't budge it. You're trapped inside your garage for hours, miss crucial appointments, and need emergency repair at premium cost.",
+    "passed": "After consulting YouTube, you manage to disengage the opener and manually open the door. It's heavy and difficult but you get your car out.",
+    "failed": "You can't figure out how to open it manually and don't have the strength. You're stuck calling emergency repair and missing your commitments."
+  },
+  {
+    "id": 46,
+    "passed_easily": "You realize within seconds before starting the engine. You drain it immediately using the emergency kit in your trunk. No damage done.",
+    "failed_miserably": "You drive away and the engine seizes catastrophically. Your engine is destroyed beyond repair, costing you thousands or even totaling your vehicle.",
+    "passed": "You catch it before driving far. You have the tank drained and fuel system flushed. It's expensive but you prevent major engine damage.",
+    "failed": "You realize after driving several miles. The damage requires extensive repairs to the fuel system and possibly the engine. You're out thousands."
+  },
+  {
+    "id": 47,
+    "passed_easily": "You snatch it out in under two seconds and immediately power it off. After drying in rice for a day, it works perfectly with no damage.",
+    "failed_miserably": "It's submerged for several seconds and completely waterlogged. No amount of drying helps - the phone is dead and you lost everything not backed up to the cloud.",
+    "passed": "You get it out quickly and after professional drying service, it mostly works but has some glitchy features. Functional but compromised.",
+    "failed": "Despite your rescue attempts, moisture damaged internal components. The phone won't turn on or has major malfunctions requiring replacement."
+  },
+  {
+    "id": 48,
+    "passed_easily": "The officer is understanding, gives you a verbal warning, and explains the rule you broke. You drive away with no ticket and a lesson learned.",
+    "failed_miserably": "It's a major violation with a huge fine, points on your license, and your insurance rates skyrocket. The officer is hostile and you're lucky to avoid arrest.",
+    "passed": "You get a ticket but the officer reduces it to a non-moving violation or the fine is minimal. You take an online class to keep it off your record.",
+    "failed": "You receive a hefty ticket that affects your insurance rates and adds points to your license. It's expensive and impacts your driving record."
+  },
+  {
+    "id": 49,
+    "passed_easily": "Your dentist has an emergency opening Monday morning, fits you in, and replaces it quickly and painlessly. You barely notice it was ever missing.",
+    "failed_miserably": "It's exposed nerve that causes excruciating pain all weekend. When you finally see a dentist, you need an expensive crown or root canal.",
+    "passed": "You manage the discomfort with pain relief and temporary filling material from the pharmacy. Your dentist fits you in within a few days.",
+    "failed": "You're in significant pain all weekend and can't get an appointment for days. When you do, the exposed area has become infected or damaged."
+  },
+{
+    "id": 50,
+    "passed_easily": "You catch the issue immediately and your insurance agrees to make a one-time exception after escalating to a supervisor. You're fully covered after all.",
+    "failed_miserably": "You're facing tens of thousands in unexpected bills for a medical procedure or damage. You have no recourse and the financial burden is crushing, potentially leading to bankruptcy.",
+    "passed": "After extensive appeals and documentation, you get partial coverage. You're still out of pocket significantly but it's manageable with a payment plan.",
+    "failed": "The insurance stands firm on non-coverage. You're responsible for the full amount - thousands of dollars you weren't expecting and can't easily afford."
+  },
+  {
+    "id": 51,
+    "passed_easily": "Your neighbor's insurance immediately accepts full liability. They pay for premium repairs and even upgrade your fence. The situation actually improves your property.",
+    "failed_miserably": "Your neighbor refuses responsibility and has no insurance. You're stuck with thousands in repairs, property damage, and a potential lawsuit that drags on for years.",
+    "passed": "After some back-and-forth and filing claims, their insurance covers most of the damage. It takes weeks but you get it repaired.",
+    "failed": "Your neighbor claims it's an act of God and their insurance denies the claim. You're in a legal battle or eating the cost yourself."
+  },
+  {
+    "id": 52,
+    "passed_easily": "You have a secret system or prepared resources that let you complete it efficiently. You deliver exceptional work ahead of schedule and impress everyone.",
+    "failed_miserably": "You work yourself into exhaustion, miss the deadline anyway, and deliver subpar work. Your reputation is damaged and you're facing disciplinary action.",
+    "passed": "You work around the clock and barely make the deadline with acceptable work. You're completely burned out but you survived.",
+    "failed": "Despite your best efforts, you miss the deadline or deliver poor quality work. There are professional consequences and damaged relationships."
+  },
+  {
+    "id": 53,
+    "passed_easily": "You work from home and can be there in five minutes. You pick them up, get them settled with medicine, and continue working without major disruption.",
+    "failed_miserably": "You're in a critical meeting hours away. You miss the important work obligation, your child suffers while waiting, and both your professional and parental roles are compromised.",
+    "passed": "You scramble to rearrange your schedule and make it there within the hour. It's disruptive and stressful but you handle both responsibilities.",
+    "failed": "You're unable to leave work immediately and your child has to wait in the nurse's office feeling awful. You face judgment from both school and work."
+  },
+  {
+    "id": 54,
+    "passed_easily": "You realize immediately after starting the dryer and pull it out still wet. You properly wash and dry it - the outfit is perfectly fine.",
+    "failed_miserably": "Your favorite designer outfit shrinks to child-size and is completely unwearable. It was irreplaceable and worth hundreds of dollars - now it's ruined.",
+    "passed": "It shrinks slightly but you can still wear it, though it's tighter. You make peace with the new fit or relegate it to home wear.",
+    "failed": "It's shrunk significantly and you can no longer wear it. Your favorite piece of clothing is ruined and you're genuinely upset about the loss."
+  },
+  {
+    "id": 55,
+    "passed_easily": "Only one egg breaks and you quickly clean it up. The rest of your groceries are salvaged and you lose almost nothing.",
+    "failed_miserably": "Everything breaks - eggs, jars, bottles - creating a massive mess. You slip in it, hurt yourself, and lose an entire grocery haul worth hundreds of dollars.",
+    "passed": "Most items survive but you lose several breakables and have a messy cleanup job. It's frustrating but not catastrophic.",
+    "failed": "Multiple items shatter including expensive ones. You spend an hour cleaning raw egg and broken glass from your driveway and car."
+  },
+  {
+    "id": 56,
+    "passed_easily": "You've kept meticulous records and receipts. The audit is smooth, quick, and they find nothing wrong. You're cleared within days.",
+    "failed_miserably": "You've made major errors or been dishonest. The audit uncovers serious issues resulting in massive penalties, back taxes, interest, and possible legal action.",
+    "passed": "Your records are decent enough to defend most items. You owe some additional tax but avoid major penalties. It's stressful but survivable.",
+    "failed": "Your poor recordkeeping means you can't prove deductions. You owe significant back taxes, penalties, and interest that severely strain your finances."
+  },
+  {
+    "id": 57,
+    "passed_easily": "You find a new roommate within a week through your network who's even better than the last one. You never miss a rent payment.",
+    "failed_miserably": "You can't afford the full rent and get evicted. Your credit is destroyed, you lose your security deposit, and you're scrambling to find somewhere to live.",
+    "passed": "You find a roommate after an intense search or manage to cover the rent solo for a few months until someone moves in. Financially strained but stable.",
+    "failed": "You struggle to find someone suitable or can't afford the rent alone. You fall behind on payments and face eviction proceedings."
+  },
+  {
+    "id": 58,
+    "passed_easily": "You caught an incredibly early infestation. One professional treatment eliminates everything before structural damage occurs. Minimal cost and worry.",
+    "failed_miserably": "The infestation has caused extensive structural damage throughout your home. Repairs cost tens of thousands and your home value has plummeted.",
+    "passed": "The infestation is significant but contained. Treatment and minor repairs are expensive but manageable. Your home is saved.",
+    "failed": "Severe damage requires extensive treatment and structural repairs. You're facing enormous costs and your home may not be salvageable."
+  },
+  {
+    "id": 59,
+    "passed_easily": "Your bag is located immediately and delivered to your hotel within hours. Everything inside is intact and you barely miss it.",
+    "failed_miserably": "Your luggage is permanently lost with irreplaceable items inside. The airline compensation is a fraction of the value and you're starting your trip with nothing.",
+    "passed": "Your luggage arrives after a day or two. You have to buy some essentials but it's eventually returned mostly intact.",
+    "failed": "Your bag doesn't arrive for days or is never found. You're buying replacement clothes and items for your entire trip at significant expense."
+  },
+  {
+    "id": 60,
+    "passed_easily": "You notice within seconds and recall the email before anyone reads it. The feature works and you've dodged a massive bullet.",
+    "failed_miserably": "The email contains sensitive complaints or confidential information. Everyone sees it and you face severe professional consequences, possibly termination.",
+    "passed": "A few people see it before you can send a clarifying follow-up. It's embarrassing but you manage to smooth things over.",
+    "failed": "The damage is done and the entire company saw your message. Your reputation is significantly damaged and professional relationships are strained."
+  },
+  {
+    "id": 61,
+    "passed_easily": "The issue is minor and easily resolved. The meeting is constructive and you work together with the school to help your child improve.",
+    "failed_miserably": "Your child is facing suspension or expulsion for serious misconduct. This goes on their permanent record and impacts their future educational opportunities.",
+    "passed": "The issue is significant but you address it cooperatively with the school. There are consequences but they're fair and your child learns from it.",
+    "failed": "Your child faces serious disciplinary action. The meeting is contentious and the outcome significantly impacts their academic standing."
+  },
+  {
+    "id": 62,
+    "passed_easily": "You immediately apply pressure and it stops bleeding quickly. A butterfly bandage closes it perfectly and you don't even need stitches.",
+    "failed_miserably": "You've severed a tendon or nerve and it won't stop bleeding. You need emergency surgery, stitches, and face permanent loss of dexterity or sensation.",
+    "passed": "It's deep and requires urgent care for stitches, but you'll heal completely. It's painful and scary but not permanently damaging.",
+    "failed": "The cut is severe enough to need stitches and you're bleeding heavily. The ER visit is expensive and you're out of commission for days."
+  },
+  {
+    "id": 63,
+    "passed_easily": "You have a recent prescription and can order new glasses online for next-day delivery. You use an old pair in the meantime without issue.",
+    "failed_miserably": "Your prescription is years old, you need an eye exam first, and you can't function without them. You're virtually disabled for a week with expensive rush fees.",
+    "passed": "You use reading glasses or contacts as backup while ordering new glasses. It's inconvenient but you manage for the few days it takes.",
+    "failed": "You have no backup and can't see well enough to drive or work. You're forced to take time off and pay for emergency glasses at premium prices."
+  },
+  {
+    "id": 64,
+    "passed_easily": "You establish clear boundaries and work division early. Your communication skills turn the situation around and you deliver excellent work together.",
+    "failed_miserably": "They sabotage the project, refuse to work, or take credit for your efforts. The project fails and you both receive poor grades while your conflict escalates.",
+    "passed": "You do more than your share but manage to complete a decent project. It's frustrating but you get through it with acceptable results.",
+    "failed": "The collaboration is toxic and unproductive. The final project suffers significantly and you both receive poor grades or reviews."
+  },
+  {
+    "id": 65,
+    "passed_easily": "You have jumper cables in your trunk and someone nearby helps you jump it. You're back on the road in five minutes.",
+    "failed_miserably": "It's not just the battery - your alternator is dead. You need a tow, expensive repairs, and you're stranded for hours in an inconvenient location.",
+    "passed": "You call roadside assistance and they arrive within an hour to jump your car. It's a delay but you get moving again.",
+    "failed": "You're in a remote area with no help available for hours. By the time someone arrives, you've missed important commitments."
+  },
+  {
+    "id": 66,
+    "passed_easily": "You have security cameras and they barely got past the door before the alarm scared them off. Nothing valuable was taken and they're caught immediately.",
+    "failed_miserably": "They took everything valuable, trashed your home, and you discover they've been stealing your identity for weeks. The financial and emotional damage is devastating.",
+    "passed": "Valuable items were taken but insurance covers most of it. The violation of your space is traumatic but you'll recover.",
+    "failed": "Significant items were stolen, insurance won't cover everything, and you feel unsafe in your own home. The loss is both financial and emotional."
+  },
+  {
+    "id": 67,
+    "passed_easily": "You remove the sock and the dryer immediately works fine again. It was a simple blockage that's easily resolved in minutes.",
+    "failed_miserably": "The dryer motor burned out and you need a new one. The repair costs nearly as much as a new dryer and you're without one for days.",
+    "passed": "You clear the blockage but the dryer needs minor repairs. A technician fixes it for a reasonable fee and it's working again within a day.",
+    "failed": "The blockage caused damage that requires expensive repairs. You're doing laundromat runs for a week while waiting for parts and service."
+  },
+  {
+    "id": 68,
+    "passed_easily": "You realize within five minutes, call the restaurant, and they have it safely set aside for you. You pick it up without issue.",
+    "failed_miserably": "Someone used your card for thousands in fraudulent charges before you noticed hours later. You're dealing with fraud claims and temporarily without access to funds.",
+    "passed": "You notice after an hour and immediately cancel the card. Minor fraudulent charges were made but your bank reverses them quickly.",
+    "failed": "By the time you notice, your card has been used multiple times. While investigating fraud claims, you're without that payment method for days."
+  },
+  {
+    "id": 69,
+    "passed_easily": "The tests come back immediately and everything is normal. Your doctor reassures you it was just precautionary and you're perfectly healthy.",
+    "failed_miserably": "The tests reveal a serious condition requiring immediate treatment. Your worst fears are confirmed and you're facing a major health crisis.",
+    "passed": "The tests show minor issues that need monitoring but nothing serious. You're anxious but ultimately relieved it's not worse.",
+    "failed": "You're in limbo waiting for results for days, during which your anxiety is overwhelming. The tests are ultimately inconclusive, requiring more testing."
+  },
+  {
+    "id": 70,
+    "passed_easily": "The other driver is extremely apologetic, admits fault, and their insurance handles everything smoothly. The damage is superficial and quickly repaired.",
+    "failed_miserably": "They blame you, have no insurance, and flee the scene. You're stuck with damage, a deductible, rising insurance rates, and no way to recover costs.",
+    "passed": "Insurance sorts out the fault and covers repairs minus your deductible. It's a hassle with paperwork and rental cars but gets resolved.",
+    "failed": "The other driver claims you're at fault and their insurance fights yours. You're in a prolonged dispute while driving a damaged car."
+  },
+  {
+    "id": 71,
+    "passed_easily": "You quickly use a plunger or drain snake and clear the clog in minutes. Water flows freely again without needing any professional help.",
+    "failed_miserably": "The main line is completely blocked causing sewage backup into your sink. You need emergency plumbing service and extensive cleanup costing thousands.",
+    "passed": "After trying several methods, you finally clear it yourself or with a plumber's help within a day. It's annoying but relatively painless.",
+    "failed": "Nothing you try works and you need a plumber to snake the drain or worse. The clog is deep in the pipes requiring expensive service."
+  },
+  {
+    "id": 72,
+    "passed_easily": "They laugh it off good-naturedly when you privately apologize. They appreciate your honesty and it actually becomes a bonding moment.",
+    "failed_miserably": "They're deeply offended, it's a cultural insult you didn't know about, and they publicly call you out. Your relationship and reputation are seriously damaged.",
+    "passed": "You address it with a sincere apology. There's some awkwardness but they're understanding and you move forward with the correct pronunciation.",
+    "failed": "They're hurt and embarrassed that you never asked. The relationship is damaged and others notice the tension. Your thoughtlessness has consequences."
+  },
+  {
+    "id": 73,
+    "passed_easily": "You catch it immediately, the bank admits fault and reverses all fees. Your landlord is understanding and nothing hits your credit report.",
+    "failed_miserably": "Late fees pile up, you get an eviction notice, and the error tanks your credit score. The bank is slow to fix it and you're facing housing insecurity.",
+    "passed": "You resolve it with the bank within a few days. Your landlord charges a late fee but understands it was a bank error.",
+    "failed": "By the time it's resolved, you've accrued late fees and your landlord is threatening eviction. Your credit score takes a hit."
+  },
+  {
+    "id": 74,
+    "passed_easily": "Your IT department has backups and restores everything within minutes. You didn't lose a single message and barely noticed.",
+    "failed_miserably": "The thread contained the only record of critical information and it's permanently gone. You face consequences for losing important communications.",
+    "passed": "You find some of the information in other places or reconstruct the important parts from memory. It's recoverable but takes significant effort.",
+    "failed": "Critical information is lost forever. You have to admit the deletion to others and face professional embarrassment and practical consequences."
+  },
+  {
+    "id": 75,
+    "passed_easily": "Your insurance has glass coverage with no deductible. They come to your location and replace it within hours at no cost to you.",
+    "failed_miserably": "The crack spreads across your entire windshield within hours. You have to pay full replacement out of pocket because you only have liability insurance.",
+    "passed": "Your insurance covers most of it after a small deductible. It's replaced within a few days at a reasonable cost.",
+    "failed": "You have a high deductible or no glass coverage. The replacement costs several hundred dollars you weren't planning to spend."
+  },
+  {
+    "id": 76,
+    "passed_easily": "They come clean immediately when confronted. It's a minor issue, you have a productive conversation, and it strengthens your relationship through honesty.",
+    "failed_miserably": "The lies are about serious, dangerous, or illegal activities. Your teen faces major consequences and your relationship is severely damaged by broken trust.",
+    "passed": "After a difficult conversation, you work through the issue together. There are consequences but also understanding and a path forward.",
+    "failed": "They continue lying or the deception was serious. Trust is broken, consequences are severe, and repairing the relationship will take significant time."
+  },
+  {
+    "id": 77,
+    "passed_easily": "You know an amazing stain removal trick or professional cleaner who works magic. The stain comes out completely and the item looks brand new.",
+    "failed_miserably": "It's your most expensive or sentimentally irreplaceable clothing item, and the stain is permanent. You're heartbroken and out significant money.",
+    "passed": "A professional cleaner reduces the stain to barely noticeable. You can still wear the item though you know the flaw is there.",
+    "failed": "The stain is permanent and highly visible. Your favorite item is relegated to home wear only or thrown away entirely."
+  },
+  {
+    "id": 78,
+    "passed_easily": "You have noise-canceling headphones and melatonin. You sleep through most of the flight peacefully and arrive rested despite the crying.",
+    "failed_miserably": "The baby screams for the entire 10-hour flight. You arrive exhausted, develop a stress headache, and the lack of sleep ruins the first days of your trip.",
+    "passed": "You manage with earplugs and patience. It's unpleasant but you get some rest and arrive functional if tired.",
+    "failed": "You can't sleep at all and arrive completely exhausted. Your jet lag is worse and you're irritable and miserable for days."
+  },
+  {
+    "id": 79,
+    "passed_easily": "You have everything backed up to the cloud and immediately switch to another device. You make the deadline without issue and IT fixes your computer later.",
+    "failed_miserably": "You lose hours of unsaved work and your backup is corrupted. You miss the deadline entirely and deliver nothing, facing severe professional consequences.",
+    "passed": "You recover most of your work from autosave and stay up late recreating the rest. You barely make the deadline with acceptable work.",
+    "failed": "You've lost significant work and miss the deadline despite your best efforts to recover and recreate it. You face disappointment from colleagues or clients."
+  },
+  {
+    "id": 80,
+    "passed_easily": "It's actually an improvement or you can style it so the mistake isn't noticeable. Everyone compliments your new look.",
+    "failed_miserably": "You've given yourself a terrible, uneven cut that's impossible to hide. You need an emergency professional fix costing money you hadn't budgeted.",
+    "passed": "It's not ideal but you can style it acceptably until it grows out. You learn to live with it and it becomes a funny story.",
+    "failed": "The cut is noticeably bad and you're embarrassed every time you leave the house. You need professional repair and weeks of awkward growth."
+  },
+  {
+    "id": 81,
+    "passed_easily": "You immediately speak up with receipts - emails, documents, etc. Your boss recognizes your contribution publicly and your coworker is embarrassed.",
+    "failed_miserably": "No one believes you, the coworker gets the credit and promotion you deserved. Your ideas continue being stolen and you're stuck or forced to leave.",
+    "passed": "You address it privately with the coworker and boss later. Your contribution is eventually acknowledged though the moment was stolen.",
+    "failed": "The coworker gets credit and recognition for your idea. Correcting it later makes you look petty. Your contribution is never properly acknowledged."
+  },
+  {
+    "id": 82,
+    "passed_easily": "You take a photo of the expired meter and the citation, appeal successfully online, and the ticket is dismissed within days at no cost.",
+    "failed_miserably": "You ignored similar tickets before and this one comes with a boot or tow. You're paying hundreds in accumulated fines plus towing and storage fees.",
+    "passed": "You pay the ticket promptly and accept the expense. It's annoying but not a major financial burden.",
+    "failed": "You miss the payment deadline and the fine doubles. You're now paying significantly more than the original ticket amount."
+  },
+  {
+    "id": 83,
+    "passed_easily": "You stay calm and make the homework fun somehow. They complete it willingly and you strengthen your relationship through patient guidance.",
+    "failed_miserably": "The battle escalates into a major fight with yelling and tears. The homework doesn't get done, your relationship is strained, and school consequences follow.",
+    "passed": "After a lengthy struggle, the homework gets done to a minimum standard. Everyone is frustrated but the requirement is met.",
+    "failed": "They absolutely refuse and you eventually give up. The homework isn't done and they face school consequences while you feel like a failed parent."
+  },
+  {
+    "id": 84,
+    "passed_easily": "You catch the first mouse immediately with a trap. You seal entry points and never see another one. Problem solved in one day.",
+    "failed_miserably": "You have a massive infestation that's chewed through wiring and insulation. Extermination and repairs cost thousands, and you're living in a hotel during fumigation.",
+    "passed": "You set traps and catch several over a few days. Professional pest control helps you eliminate them and seal entry points for reasonable cost.",
+    "failed": "The infestation persists despite your efforts. You need extensive professional help and there's damage to your home's interior."
+  },
+  {
+    "id": 85,
+    "passed_easily": "They reschedule you for the next day and you didn't need the time off anyway. No harm done and you actually appreciate the extra flexibility.",
+    "failed_miserably": "You took unpaid time off for this appointment that can't be rescheduled for months. You lose income and still have the health issue hanging over you.",
+    "passed": "You reschedule for the following week. You wasted vacation time but at least you can still use the day productively.",
+    "failed": "The next available appointment is months away and you used precious PTO for nothing. Your health concern remains unaddressed far longer than planned."
+  },
+  {
+    "id": 86,
+    "passed_easily": "The client has a sense of humor and the typos are minor. You acknowledge it with a quick follow-up and it humanizes you. No harm done.",
+    "failed_miserably": "The typos completely change the meaning to something offensive or unprofessional. The client is appalled and terminates the relationship immediately.",
+    "passed": "The client notices but you send a professional correction. It's embarrassing but doesn't damage the relationship significantly.",
+    "failed": "The typos make you look incompetent. The client loses confidence in your professionalism and the relationship is damaged."
+  },
+  {
+    "id": 87,
+    "passed_easily": "It's truly minor and the school handles it appropriately. You get updates by phone and by the time you arrive, they're fine and ready to go home.",
+    "failed_miserably": "It's a serious injury requiring immediate hospitalization. You're racing hours to get there in a panic, and the injury has lasting consequences.",
+    "passed": "You leave work immediately and get there as fast as possible. The injury is moderate but they need you, and you're able to handle it.",
+    "failed": "By the time you arrive hours later, they've been in pain and scared without you. The injury required attention you weren't there to provide initially."
+  },
+  {
+    "id": 88,
+    "passed_easily": "You paid with a credit card that has fraud protection. They immediately reverse the charge and you're out nothing. Lesson learned with no financial loss.",
+    "failed_miserably": "You used a debit card or wire transfer that's unrecoverable. You've lost hundreds or thousands of dollars with no recourse whatsoever.",
+    "passed": "Your credit card company investigates and eventually returns most of your money. It takes weeks but you recover most of the loss.",
+    "failed": "The scam used untraceable payment methods. Your money is gone forever and you feel foolish for falling for it."
+  },
+  {
+    "id": 89,
+    "passed_easily": "The pharmacy calls a nearby location that has it in stock. You pick it up there within an hour without missing a dose.",
+    "failed_miserably": "It's a critical medication and there's a national shortage. You go without for days, your condition worsens, and you end up in urgent care.",
+    "passed": "They can get it in 1-2 days. You carefully ration your remaining pills and manage until the refill arrives.",
+    "failed": "No local pharmacy has it and it takes nearly a week to arrive. You miss several doses and your symptoms return."
+  },
+  {
+    "id": 90,
+    "passed_easily": "A tow truck arrives quickly and clears the road. You're only delayed 10 minutes and it doesn't significantly impact your plans.",
+    "failed_miserably": "You're stuck for hours with no alternate route and miss something critically important. The delay has serious personal or professional consequences.",
+    "passed": "After 45 minutes, the road clears. You're late but manage to salvage most of your plans by rearranging.",
+    "failed": "You're trapped for over an hour and miss your appointment or event entirely. There's no alternate route and no way to notify anyone effectively."
+  },
+  {
+    "id": 91,
+    "passed_easily": "You call immediately and they send the correct order right away with an apology and a discount. You have the right food within 20 minutes.",
+    "failed_miserably": "They refuse to fix it, you can't get a refund, and you've wasted money on inedible food. You're still hungry and out the cost of a meal.",
+    "passed": "They eventually send the correct order or refund you. It takes time and you're hungry, but it gets resolved.",
+    "failed": "Customer service is unhelpful, you can't reach resolution, and you're out the money with wrong food you can't eat."
+  },
+  {
+    "id": 92,
+    "passed_easily": "You have excellent insurance that covers everything. Repairs are done quickly by professionals and you're barely inconvenienced financially.",
+    "failed_miserably": "The damage is extensive, insurance won't cover much, and mold has spread. You're facing $50,000+ in repairs and possible health issues from exposure.",
+    "passed": "Insurance covers most repairs after your deductible. It's expensive and disruptive but manageable. The work is done in a few weeks.",
+    "failed": "Major repairs are needed that exceed your savings. You're going into debt, living with construction for months, and dealing with mold concerns."
+  },
+  {
+    "id": 93,
+    "passed_easily": "You immediately apologize, address the issue, and they're satisfied. You establish a good neighborly relationship and there's no further problem.",
+    "failed_miserably": "They call the police, file formal complaints, and pursue legal action. You face fines, potential eviction, and an ongoing hostile neighbor situation.",
+    "passed": "You work out a compromise about noise levels and timing. The relationship is tense but functional, and no authorities get involved.",
+    "failed": "The situation escalates with police calls and landlord involvement. Your living situation becomes hostile and stressful."
+  },
+  {
+    "id": 94,
+    "passed_easily": "Your automatic cloud backup had synced this morning. You restore everything instantly without losing a single photo. Pure relief.",
+    "failed_miserably": "Decades of irreplaceable photos are gone forever - childhood, weddings, lost loved ones. You're devastated and they're unrecoverable.",
+    "passed": "You recover most photos from various sources - social media, email, others' phones. You lose some but salvage many memories.",
+    "failed": "You've lost years of precious memories permanently. Only the few photos you shared publicly are salvageable. The emotional loss is crushing."
+  },
+  {
+    "id": 95,
+    "passed_easily": "You quickly troubleshoot and fix it yourself - just dead batteries in the thermostat. Temperature control is restored in minutes.",
+    "failed_miserably": "The entire HVAC system is failing during extreme weather. Repairs cost thousands and you're suffering in dangerous temperatures for days.",
+    "passed": "You figure out a manual override or get a technician next-day. It's uncomfortable but you survive until it's fixed.",
+    "failed": "Technicians can't come for days during a heat wave or cold snap. You're miserable and your home reaches dangerous temperatures."
+  },
+  {
+    "id": 96,
+    "passed_easily": "You set firm boundaries, divide work clearly, and either get them to contribute or document everything to protect your grade. The outcome is fair.",
+    "failed_miserably": "They do nothing, sabotage your efforts, or the professor blames you both equally. You receive a failing grade despite doing all the work.",
+    "passed": "You do most of the work but manage to produce a decent project. Your grade is okay but you're resentful of carrying the load.",
+    "failed": "The partner's lack of contribution results in a poor project that affects your grade significantly despite your efforts."
+  },
+  {
+    "id": 97,
+    "passed_easily": "You have a costume closet or creative materials on hand. You whip up something amazing in an hour that everyone loves.",
+    "failed_miserably": "Stores are closed, you have nothing suitable, and you send them in regular clothes. They're the only one without a costume and come home heartbroken.",
+    "passed": "You make a frantic late-night store run and cobble together an acceptable costume. It's stressful but they have something to wear.",
+    "failed": "You can't create anything suitable in time. Your child goes to school embarrassed, and you feel guilty about failing them."
+  },
+  {
+    "id": 98,
+    "passed_easily": "You realize quickly, quietly slip out, and find the correct meeting with no one noticing. You make it to the right place before anything important happens.",
+    "failed_miserably": "You actively participate in the wrong meeting for 20 minutes, including asking questions. When you realize, it's humiliating and people question your competence.",
+    "passed": "You notice and quickly excuse yourself with a brief apology. It's embarrassing but you laugh it off and get to the right place.",
+    "failed": "The meeting ends before you realize, and you miss your actual meeting entirely. You look unprofessional and miss important information."
+  },
+  {
+    "id": 99,
+    "passed_easily": "Your workplace is understanding and flexible. You leave immediately, and it turns out to be manageable - not as serious as feared. Everything works out.",
+    "failed_miserably": "It's a life-threatening emergency and you're hours away. You can't get there in time, your parent is alone and terrified, and the outcome is tragic.",
+    "passed": "You leave work immediately despite the inconvenience. The emergency is serious but you're able to help and support them through it.",
+    "failed": "Work obligations make it difficult to leave immediately. By the time you get there, the critical moment has passed and your parent needed you earlier."
+  },
+  {
+    "id": 100,
+    "passed_easily": "The workers let you move your car immediately before starting. You drive away without issue and they even wave apologetically.",
+    "failed_miserably": "Your car gets towed at your expense, you miss critical commitments, and the towing company damaged your vehicle. You're paying hundreds in fees and repairs.",
+    "passed": "You have to wait an hour for them to move equipment, but they let you out. You're late but not disastrously so.",
+    "failed": "You're trapped for hours or the entire day. You miss work and important appointments with no recourse. Your entire day is ruined."
+  }
+]

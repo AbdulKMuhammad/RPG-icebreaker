@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "scenario": "Your car won't start on a morning you have an important appointment",
+    "strength": 3,
+    "agility": 5,
+    "intelligence": 4,
+    "stamina": 4,
+    "luck": 4
+  },
+  {
+    "id": 2,
+    "scenario": "You spill an entire cup of coffee on your laptop",
+    "strength": 1,
+    "agility": 7,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 4
+  },
+  {
+    "id": 3,
+    "scenario": "The check engine light comes on during a road trip",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 4,
+    "scenario": "You realize you've been overcharged on your credit card bill",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 5,
+    "scenario": "Your toilet overflows and you don't have a plunger",
+    "strength": 4,
+    "agility": 6,
+    "intelligence": 3,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 6,
+    "scenario": "You accidentally send a text complaining about someone to that exact person",
+    "strength": 1,
+    "agility": 8,
+    "intelligence": 7,
+    "stamina": 3,
+    "luck": 1
+  },
+  {
+    "id": 7,
+    "scenario": "Your flight gets canceled with no available alternatives for days",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 8,
+    "scenario": "You lose your wallet with all your cards and ID inside",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 9,
+    "scenario": "Your child gets sick the night before your big work presentation",
+    "strength": 3,
+    "agility": 5,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 10,
+    "scenario": "The power goes out and all the food in your fridge starts to spoil",
+    "strength": 4,
+    "agility": 5,
+    "intelligence": 4,
+    "stamina": 3,
+    "luck": 4
+  },
+  {
+    "id": 11,
+    "scenario": "You discover a leak in your ceiling during a rainstorm",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 12,
+    "scenario": "Your boss emails you with urgent work on Friday at 5 PM",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 13,
+    "scenario": "You accidentally delete an important file with no backup",
+    "strength": 0,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 14,
+    "scenario": "Your pet escapes from the yard and you can't find them",
+    "strength": 3,
+    "agility": 5,
+    "intelligence": 3,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 15,
+    "scenario": "You're called for jury duty during your busiest work week",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 16,
+    "scenario": "Your washing machine breaks mid-cycle with soapy water everywhere",
+    "strength": 5,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 3,
+    "luck": 4
+  },
+  {
+    "id": 17,
+    "scenario": "You get a flat tire in an unsafe area with no spare",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 18,
+    "scenario": "Someone dents your parked car and drives away without leaving a note",
+    "strength": 1,
+    "agility": 1,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 9
+  },
+  {
+    "id": 19,
+    "scenario": "Your bank account is frozen due to suspected fraud",
+    "strength": 0,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 20,
+    "scenario": "You wake up with a terrible migraine on the day of a major event",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 8,
+    "luck": 4
+  },
+  {
+    "id": 21,
+    "scenario": "Your basement floods after heavy rain",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 22,
+    "scenario": "You accidentally throw away something important with the trash",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 3,
+    "stamina": 4,
+    "luck": 6
+  },
+  {
+    "id": 23,
+    "scenario": "Your heating or AC breaks during extreme weather",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 24,
+    "scenario": "You're stuck in an elevator between floors",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 7,
+    "luck": 5
+  },
+  {
+    "id": 25,
+    "scenario": "Your passport expires right before an international trip",
+    "strength": 1,
+    "agility": 5,
+    "intelligence": 7,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 26,
+    "scenario": "You get food poisoning hours before hosting a dinner party",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 6,
+    "luck": 4
+  },
+  {
+    "id": 27,
+    "scenario": "Your child throws a tantrum in the middle of a crowded store",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 28,
+    "scenario": "You discover bedbugs in your home",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 1
+  },
+  {
+    "id": 29,
+    "scenario": "Your phone screen completely shatters",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 7,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 30,
+    "scenario": "You're double-booked for two important commitments at the same time",
+    "strength": 1,
+    "agility": 5,
+    "intelligence": 7,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 31,
+    "scenario": "Your dishwasher starts leaking water all over the kitchen floor",
+    "strength": 4,
+    "agility": 6,
+    "intelligence": 4,
+    "stamina": 3,
+    "luck": 3
+  },
+  {
+    "id": 32,
+    "scenario": "You accidentally lock your keys in your running car",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 33,
+    "scenario": "Someone steals your package from your doorstep",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 7
+  },
+  {
+    "id": 34,
+    "scenario": "You get called into work on your planned day off",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 35,
+    "scenario": "Your computer gets infected with a virus or malware",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 4,
+    "luck": 4
+  },
+  {
+    "id": 36,
+    "scenario": "You sprain your ankle right before a vacation",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 5
+  },
+  {
+    "id": 37,
+    "scenario": "Your smoke detector keeps going off while cooking",
+    "strength": 3,
+    "agility": 6,
+    "intelligence": 4,
+    "stamina": 3,
+    "luck": 4
+  },
+  {
+    "id": 38,
+    "scenario": "You discover mold growing in your bathroom or closet",
+    "strength": 4,
+    "agility": 3,
+    "intelligence": 5,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 39,
+    "scenario": "Your dog chews up an expensive pair of shoes",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 5
+  },
+  {
+    "id": 40,
+    "scenario": "You get stuck behind a slow driver when you're already running late",
+    "strength": 0,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 7,
+    "luck": 5
+  },
+  {
+    "id": 41,
+    "scenario": "Your credit card gets declined at checkout with a line behind you",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 42,
+    "scenario": "You realize you've been putting off a major bill and it's now overdue",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 43,
+    "scenario": "Your child announces a school project is due tomorrow",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 44,
+    "scenario": "You get stung by a bee or wasp and have a mild reaction",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 45,
+    "scenario": "Your garage door opener breaks when your car is inside",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 4
+  },
+  {
+    "id": 46,
+    "scenario": "You accidentally put the wrong fuel type in your vehicle",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 8
+  },
+  {
+    "id": 47,
+    "scenario": "Your phone falls in water or the toilet",
+    "strength": 1,
+    "agility": 8,
+    "intelligence": 5,
+    "stamina": 1,
+    "luck": 5
+  },
+  {
+    "id": 48,
+    "scenario": "You get pulled over for a traffic violation you didn't realize you committed",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 49,
+    "scenario": "Your dental filling falls out over the weekend",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 8,
+    "luck": 4
+  },
+  {
+    "id": 50,
+    "scenario": "You discover your insurance doesn't cover something you assumed it did",
+    "strength": 0,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 51,
+    "scenario": "Your neighbor's tree falls on your fence during a storm",
+    "strength": 4,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 52,
+    "scenario": "You get assigned an impossible deadline at work",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 53,
+    "scenario": "Your child's school calls saying they're sick and need to be picked up immediately",
+    "strength": 1,
+    "agility": 7,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 54,
+    "scenario": "You accidentally shrink your favorite outfit in the dryer",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 4,
+    "luck": 8
+  },
+  {
+    "id": 55,
+    "scenario": "Your grocery bags break and eggs smash all over your driveway",
+    "strength": 4,
+    "agility": 5,
+    "intelligence": 3,
+    "stamina": 4,
+    "luck": 4
+  },
+  {
+    "id": 56,
+    "scenario": "You get audited by the IRS or tax authority",
+    "strength": 1,
+    "agility": 1,
+    "intelligence": 9,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 57,
+    "scenario": "Your roommate moves out unexpectedly, leaving you with full rent",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 58,
+    "scenario": "You discover termites or other pest infestation in your home",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 59,
+    "scenario": "Your luggage gets lost by the airline",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 60,
+    "scenario": "You accidentally hit 'reply all' on an email meant for one person",
+    "strength": 0,
+    "agility": 8,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 61,
+    "scenario": "Your child gets in trouble at school and you're called in for a meeting",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 62,
+    "scenario": "You slice your finger badly while cooking dinner",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 6,
+    "luck": 3
+  },
+  {
+    "id": 63,
+    "scenario": "Your glasses break and you don't have a backup pair",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 64,
+    "scenario": "You get assigned to work with a difficult colleague on a project",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 65,
+    "scenario": "Your car battery dies in a parking lot",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 66,
+    "scenario": "You discover your home has been burglarized",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 67,
+    "scenario": "Your dryer catches a sock and stops working properly",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 4
+  },
+  {
+    "id": 68,
+    "scenario": "You accidentally leave your credit card at a restaurant",
+    "strength": 1,
+    "agility": 6,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 69,
+    "scenario": "Your doctor orders unexpected medical tests that cause anxiety",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 5,
+    "stamina": 7,
+    "luck": 4
+  },
+  {
+    "id": 70,
+    "scenario": "You get into a fender bender in a parking lot",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 7,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 71,
+    "scenario": "Your kitchen sink gets completely clogged",
+    "strength": 4,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 72,
+    "scenario": "You realize you've been pronouncing someone's name wrong for months",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 6,
+    "luck": 5
+  },
+  {
+    "id": 73,
+    "scenario": "Your rent or mortgage payment bounces due to a bank error",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 74,
+    "scenario": "You accidentally delete an important email thread",
+    "strength": 0,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 75,
+    "scenario": "Your windshield gets cracked by a rock on the highway",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 6
+  },
+  {
+    "id": 76,
+    "scenario": "You discover your teenager has been lying about something important",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 77,
+    "scenario": "Your favorite clothing item gets stained beyond cleaning",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 7
+  },
+  {
+    "id": 78,
+    "scenario": "You're seated next to a crying baby on a long flight",
+    "strength": 1,
+    "agility": 1,
+    "intelligence": 4,
+    "stamina": 10,
+    "luck": 4
+  },
+  {
+    "id": 79,
+    "scenario": "Your work computer crashes right before a deadline",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 80,
+    "scenario": "You accidentally cut too much hair off while grooming yourself",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 4,
+    "stamina": 6,
+    "luck": 5
+  },
+  {
+    "id": 81,
+    "scenario": "Your coworker takes credit for your idea in a meeting",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 8,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 82,
+    "scenario": "You get a parking ticket because the meter ran out",
+    "strength": 1,
+    "agility": 6,
+    "intelligence": 5,
+    "stamina": 3,
+    "luck": 5
+  },
+  {
+    "id": 83,
+    "scenario": "Your child refuses to do their homework and it becomes a battle",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 84,
+    "scenario": "You discover mice or rats in your home",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 85,
+    "scenario": "Your doctor's appointment gets canceled last minute after you took time off",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 86,
+    "scenario": "You accidentally send a professional email with typos to an important client",
+    "strength": 0,
+    "agility": 4,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 87,
+    "scenario": "Your child gets hurt at school and you're hours away",
+    "strength": 1,
+    "agility": 6,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 88,
+    "scenario": "You realize you've been scammed after purchasing something online",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 89,
+    "scenario": "Your prescription medication is out of stock at the pharmacy",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 90,
+    "scenario": "You get stuck behind a broken-down vehicle on a one-lane road",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 4,
+    "stamina": 7,
+    "luck": 5
+  },
+  {
+    "id": 91,
+    "scenario": "Your online food delivery order is completely wrong",
+    "strength": 1,
+    "agility": 4,
+    "intelligence": 6,
+    "stamina": 4,
+    "luck": 5
+  },
+  {
+    "id": 92,
+    "scenario": "You discover water damage in your walls requiring expensive repairs",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 93,
+    "scenario": "Your neighbor complains about noise and threatens to call authorities",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 4
+  },
+  {
+    "id": 94,
+    "scenario": "You accidentally delete your entire photo library",
+    "strength": 0,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 5,
+    "luck": 5
+  },
+  {
+    "id": 95,
+    "scenario": "Your thermostat stops working and you can't control the temperature",
+    "strength": 3,
+    "agility": 3,
+    "intelligence": 7,
+    "stamina": 4,
+    "luck": 3
+  },
+  {
+    "id": 96,
+    "scenario": "You get assigned a terrible partner for a group project",
+    "strength": 1,
+    "agility": 3,
+    "intelligence": 6,
+    "stamina": 7,
+    "luck": 3
+  },
+  {
+    "id": 97,
+    "scenario": "Your child announces they need a costume for school tomorrow",
+    "strength": 1,
+    "agility": 7,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 98,
+    "scenario": "You realize you've been sitting in the wrong meeting for 20 minutes",
+    "strength": 1,
+    "agility": 6,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 4
+  },
+  {
+    "id": 99,
+    "scenario": "Your elderly parent calls with an emergency while you're at work",
+    "strength": 1,
+    "agility": 7,
+    "intelligence": 4,
+    "stamina": 5,
+    "luck": 3
+  },
+  {
+    "id": 100,
+    "scenario": "You wake up to discover your street is being repaved and your car is trapped",
+    "strength": 3,
+    "agility": 4,
+    "intelligence": 5,
+    "stamina": 4,
+    "luck": 4
+  }
+]

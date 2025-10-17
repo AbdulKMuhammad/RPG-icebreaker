@@ -2,7 +2,7 @@
 
 An interactive Streamlit application that lets you build a character with custom stats and test how well your build performs against real-life scenarios. Allocate your points wisely across five key attributes and see if you can handle what life throws at you!
 
-## 🎮 Features
+##  Features
 
 - **Interactive Stat Builder**: Allocate 25 points across 5 different stats
   - Strength
@@ -21,12 +21,12 @@ An interactive Streamlit application that lets you build a character with custom
     - ⚠️ **Failed** - One or more stats fall short of requirements
     - ❌ **Failed Miserably** - One or more stats fall short by 3+ points
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.9 or higher
 - pip (Python package installer)
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -67,7 +67,7 @@ streamlit run app.py
 
 The application will open in your default web browser at `http://localhost:8501`
 
-## 🎯 How It Works
+## How It Works
 
 ### Step 1: Build Your Character
 1. Use the sliders on the left to allocate your 25 stat points
@@ -110,7 +110,7 @@ Each scenario shows:
 ## 📁 Project Structure
 
 ```
-windsurf-project/
+RPG-icebreaker/
 ├── app.py                 # Main Streamlit application
 ├── scenarios.json         # 100 life scenarios with stat requirements
 ├── outcomes.json          # Outcome narratives for each scenario
@@ -139,26 +139,26 @@ The simulation evaluates your **weakest performing stat** against each scenario:
 
 This creates strategic depth - you must decide whether to specialize in certain stats or maintain a balanced build.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Streamlit** - Web application framework
 - **Plotly** - Interactive radar chart visualization
 - **Python** - Core programming language
 
-## 💡 Strategy Tips
+##  Strategy Tips
 
 - **Balanced Build**: Distribute points evenly to handle a variety of scenarios
 - **Specialized Build**: Max out specific stats to dominate certain scenario types
 - **Min-Maxing**: Identify which stats appear most frequently and prioritize those
 - **Zero Stats**: Setting a stat to 0 is risky but allows more points elsewhere
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this project and add your own scenarios! Each scenario needs:
 1. An entry in `scenarios.json` with stat requirements (must sum to 20)
 2. Four outcome narratives in `outcomes.json` (passed_easily, passed, failed, failed_miserably)
 
-## 📝 License
+##  License
 
 This project is open source and available for personal and educational use.
 
